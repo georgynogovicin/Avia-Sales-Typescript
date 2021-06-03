@@ -1,21 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
 :root {
-    --main-bg-color: #F3F7FA;
-    --white-color: #ffffff;
-    --headers-color: #4a4a4a;
-    font-family: 'Open Sans', sans-serif;
-
-    
+  --main-bg-color: #f3f7fa;
+  --white-color: #ffffff;
+  --headers-color: #4a4a4a;
+  font-family: 'Open Sans', sans-serif;
 }
 
 body {
-    background-color: var(--main-bg-color);
+  background-color: var(--main-bg-color);
 }
 
 .visualy-hidden {
-    position: absolute;
-    clip: rect(0 0 0 0);
-    width: 1px;
-    height: 1px;
-    margin: -1px;
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
 }
