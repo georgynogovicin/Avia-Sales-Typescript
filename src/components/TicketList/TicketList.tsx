@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { FC } from 'react';
 
 import Ticket from '../Ticket';
 
 import './TicketList.css';
 
-const TicketList = () => (
+const TicketList: FC = () => (
   <ul className="ticket-list">
     <Ticket />
     <Ticket />

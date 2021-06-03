@@ -6,7 +6,7 @@ import s7 from '../../img/S7_Logo.png';
 const Ticket = () => (
   <li className="ticket">
     <div className="ticket__header">
-      <span className="ticket__price">13 400 Р </span>
+      <span>13 400 Р </span>
       <img src={s7} alt="S7" />
     </div>
     <table className="ticket__table">
