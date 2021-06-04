@@ -64,7 +64,8 @@
             "off"
         ],
         "react/static-property-placement": "off",
-        "import/prefer-default-export": "off"
+        "import/prefer-default-export": "off",
+        "react/prop-types": 0
     },
     "settings": {
         "react": {
